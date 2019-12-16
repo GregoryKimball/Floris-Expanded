@@ -223,7 +223,7 @@ particle_systems = [
     ),
 
 #LAZERAS MODIFIED  {spar troops}
- ("team_0", psf_billboard_3d|psf_global_emit_dir|psf_always_emit, "prt_mesh_fire_1",
+ ("team_0", psf_billboard_3d|psf_global_emit_dir|psf_always_emit, "prt_mesh_fire_1", # red team
      50, 0.35, 0.2, 0.03, 10.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.0, 0.8), (1, 0),        #alpha keys
      (0.0, 0.1), (1, 0.8),      #red keys
@@ -237,7 +237,7 @@ particle_systems = [
      0.5                        #rotation damping
     ),
 
-    ("team_1", psf_billboard_3d|psf_global_emit_dir|psf_always_emit, "prt_mesh_fire_1",
+    ("team_1", psf_billboard_3d|psf_global_emit_dir|psf_always_emit, "prt_mesh_fire_1", # blue team
      50, 0.35, 0.2, 0.03, 10.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.0, 0.8), (1, 0),        #alpha keys
      (0.0, 0.0), (1, 0.0),      #red keys
@@ -251,7 +251,7 @@ particle_systems = [
      0.5                        #rotation damping
     ),
 
-    ("team_2", psf_billboard_3d|psf_global_emit_dir|psf_always_emit, "prt_mesh_fire_1",
+    ("team_2", psf_billboard_3d|psf_global_emit_dir|psf_always_emit, "prt_mesh_fire_1",  # green team
      50, 0.35, 0.2, 0.03, 10.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.0, 0.8), (1, 0),        #alpha keys
      (0.0, 0.0), (1, 0.0),      #red keys
@@ -265,7 +265,7 @@ particle_systems = [
      0.5                        #rotation damping
     ),
 
-    ("team_3", psf_billboard_3d|psf_global_emit_dir|psf_always_emit, "prt_mesh_fire_1",
+    ("team_3", psf_billboard_3d|psf_global_emit_dir|psf_always_emit, "prt_mesh_fire_1",  # white team
      50, 0.35, 0.2, 0.03, 10.0, 0.0,     #num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
      (0.0, 0.8), (1, 0),        #alpha keys
      (0.0, 1), (1, 0.8),      #red keys
@@ -1063,4 +1063,60 @@ particle_systems = [
       15,                       #rotation speed
       0,                        #rotation damping
     ),
+    ("team_4", psf_billboard_3d | psf_global_emit_dir | psf_always_emit, "prt_mesh_fire_1", # yellow team
+      50, 0.35, 0.2, 0.03, 10.0, 0.0,
+      # num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+      (0.0, 0.8), (1, 0),  # alpha keys
+      (0.0, 1), (1, 0.8),  # red keys
+      (0.0, 1), (1, 0.8),  # green keys
+      (0.0, 0), (1, 0.0),  # blue keys
+      (0, 0.15), (0.4, 0.3),  # scale keys
+      (0.04, 0.04, 0.04),  # emit box size
+      (0, 0, 0.5),  # emit velocity
+      0.0,  # emit dir randomness
+      200,  # rotation speed
+      0.5  # rotation damping
+      ),
+     ("team_5", psf_billboard_3d | psf_global_emit_dir | psf_always_emit, "prt_mesh_fire_1", # cyan team
+      50, 0.35, 0.2, 0.03, 10.0, 0.0,
+      # num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+      (0.0, 0.8), (1, 0),  # alpha keys
+      (0.0, 0.0), (1, 0.0),  # red keys
+      (0.0, 1), (1, 0.8),  # green keys
+      (0.0, 1), (1, 0.8),  # blue keys
+      (0, 0.15), (0.4, 0.3),  # scale keys
+      (0.04, 0.04, 0.04),  # emit box size
+      (0, 0, 0.5),  # emit velocity
+      0.0,  # emit dir randomness
+      200,  # rotation speed
+      0.5  # rotation damping
+      ),
+     ("team_6", psf_billboard_3d | psf_global_emit_dir | psf_always_emit, "prt_mesh_fire_1",  # magenta team
+      50, 0.35, 0.2, 0.03, 10.0, 0.0,
+      # num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+      (0.0, 0.8), (1, 0),  # alpha keys
+      (0.0, 1), (1, 0.3),  # red keys
+      (0.0, 0), (1, 0.3),  # green keys
+      (0.0, 1), (1, 0.3),  # blue keys
+      (0, 0.15), (0.4, 0.3),  # scale keys
+      (0.04, 0.04, 0.04),  # emit box size
+      (0, 0, 0.5),  # emit velocity
+      0.0,  # emit dir randomness
+      200,  # rotation speed
+      0.5  # rotation damping
+      ),
+     ("team_7", psf_billboard_3d | psf_global_emit_dir | psf_always_emit, "prt_mesh_fire_1",  # orange team
+      50, 0.35, 0.2, 0.03, 10.0, 0.0,
+      # num_particles, life, damping, gravity_strength, turbulance_size, turbulance_strength
+      (0.0, 0.8), (1, 0),  # alpha keys
+      (0.0, 1), (1, 0.3),  # red keys
+      (0.0, 0.5), (1, 0.3),  # green keys
+      (0.0, 0), (1, 0.3),  # blue keys
+      (0, 0.15), (0.4, 0.3),  # scale keys
+      (0.04, 0.04, 0.04),  # emit box size
+      (0, 0, 0.5),  # emit velocity
+      0.0,  # emit dir randomness
+      200,  # rotation speed
+      0.5  # rotation damping
+      ),
 ]
