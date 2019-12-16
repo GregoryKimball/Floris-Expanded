@@ -62,3 +62,7 @@ psys_dungeon_water_drops = 60
 psys_wedding_rose = 61
 psys_sea_foam_a = 62
 psys_fall_leafs_a = 63
+psys_team_4 = 64
+psys_team_5 = 65
+psys_team_6 = 66
+psys_team_7 = 67
